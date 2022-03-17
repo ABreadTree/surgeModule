@@ -1,0 +1,109 @@
+#!MANAGED-CONFIG https://api.v1.mk/sub?target=surge&ver=4&url=https%3A%2F%2Fapi.cn2.pw%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D4be01c1a9e8d8ba67b5d494ab3e208c4&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_MultiMode.ini&emoji=true&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&sort=false interval=86400 strict=false
+
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5
+
+[Script]
+http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+[Proxy]
+DIRECT = direct
+🇭🇰 [BosLife] 香港-01 = trojan, relayhk1.netspeed.pw, 60010, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=hk3.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇭🇰 [BosLife] 香港-02 = trojan, relayhk2.netspeed.pw, 60011, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=hk1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇭🇰 [BosLife] 香港-03 = trojan, relayhk3.netspeed.pw, 60012, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=hk3.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇭🇰 [BosLife] 香港-04 = trojan, relayhk4.netspeed.pw, 60013, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=hk1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇭🇰 [BosLife] 香港-05 = trojan, relayhk5.netspeed.pw, 60014, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=hk1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇭🇰 [BosLife] 香港-06 = trojan, relayhk6.netspeed.pw, 60015, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=hk3.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇭🇰 [BosLife] 香港-07 = trojan, relayhk7.netspeed.pw, 60016, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=hk2.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇭🇰 [BosLife] 香港-08 = trojan, relayhk8.netspeed.pw, 60017, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=hk3.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇭🇰 [BosLife] 香港-09 = trojan, relayhk9.netspeed.pw, 60018, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=hk2.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇭🇰 [BosLife] 香港-10 = trojan, relayhk10.netspeed.pw, 60019, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=hk2.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇸🇬 [BosLife] 新加坡-01 = trojan, relaysgp1.netspeed.pw, 60075, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=sgp1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇸🇬 [BosLife] 新加坡-02 = trojan, relaysgp2.netspeed.pw, 60076, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=sgp1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇸🇬 [BosLife] 新加坡-03 = trojan, relaysgp3.netspeed.pw, 60077, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=sgp1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇹🇼 [BosLife] 台湾-01 = trojan, relaytw1.netspeed.pw, 60095, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=tw1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇹🇼 [BosLife] 台湾-02 = trojan, relaytw2.netspeed.pw, 60096, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=tw1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇹🇼 [BosLife] 台湾-03 = trojan, relaytw3.netspeed.pw, 60097, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=tw1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 [BosLife] 美国-01 = trojan, relayus1.netspeed.pw, 60033, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=us1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 [BosLife] 美国-02 = trojan, relayus2.netspeed.pw, 60034, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=us2.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 [BosLife] 美国-03 = trojan, relayus3.netspeed.pw, 60035, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=us1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 [BosLife] 美国-04 = trojan, relayus4.netspeed.pw, 60036, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=us2.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 [BosLife] 美国-05 = trojan, relayus5.netspeed.pw, 60037, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=us1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 [BosLife] 美国-06 = trojan, relayus6.netspeed.pw, 60038, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=us2.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇯🇵 [BosLife] 日本-01 = trojan, relayjp1.netspeed.pw, 60053, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=jp1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇯🇵 [BosLife] 日本-02 = trojan, relayjp2.netspeed.pw, 60054, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=jp1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇯🇵 [BosLife] 日本-03 = trojan, relayjp3.netspeed.pw, 60055, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=jp1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇰🇷 [BosLife] 韩国-01 = trojan, relaykr1.netspeed.pw, 60101, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=kr1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇰🇷 [BosLife] 韩国-02 = trojan, relaykr2.netspeed.pw, 60102, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=kr1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇰🇷 [BosLife] 韩国-03 = trojan, relaykr3.netspeed.pw, 60103, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=kr1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇨🇦 [BosLife] 加拿大-01 = trojan, relayca1.netspeed.pw, 60121, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=ca1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇨🇦 [BosLife] 加拿大-02 = trojan, relayca2.netspeed.pw, 60122, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=ca1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇬🇧 [BosLife] 英国-01 = trojan, relayuk1.netspeed.pw, 60082, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=uk1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇬🇧 [BosLife] 英国-02 = trojan, relayuk2.netspeed.pw, 60083, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=uk1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🇬🇧 [BosLife] 英国-03 = trojan, relayuk3.netspeed.pw, 60084, password=b81831a2-0184-40a7-b493-6d09bf416573, sni=uk1.networkspeed.info, skip-cert-verify=false, tfo=false, udp-relay=false
+🎥 奈飞节点 = direct
+
+[Proxy Group]
+🚀 节点选择 = select,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
+🚀 手动切换 = select,🇭🇰 [BosLife] 香港-01,🇭🇰 [BosLife] 香港-02,🇭🇰 [BosLife] 香港-03,🇭🇰 [BosLife] 香港-04,🇭🇰 [BosLife] 香港-05,🇭🇰 [BosLife] 香港-06,🇭🇰 [BosLife] 香港-07,🇭🇰 [BosLife] 香港-08,🇭🇰 [BosLife] 香港-09,🇭🇰 [BosLife] 香港-10,🇸🇬 [BosLife] 新加坡-01,🇸🇬 [BosLife] 新加坡-02,🇸🇬 [BosLife] 新加坡-03,🇹🇼 [BosLife] 台湾-01,🇹🇼 [BosLife] 台湾-02,🇹🇼 [BosLife] 台湾-03,🇺🇸 [BosLife] 美国-01,🇺🇸 [BosLife] 美国-02,🇺🇸 [BosLife] 美国-03,🇺🇸 [BosLife] 美国-04,🇺🇸 [BosLife] 美国-05,🇺🇸 [BosLife] 美国-06,🇯🇵 [BosLife] 日本-01,🇯🇵 [BosLife] 日本-02,🇯🇵 [BosLife] 日本-03,🇰🇷 [BosLife] 韩国-01,🇰🇷 [BosLife] 韩国-02,🇰🇷 [BosLife] 韩国-03,🇨🇦 [BosLife] 加拿大-01,🇨🇦 [BosLife] 加拿大-02,🇬🇧 [BosLife] 英国-01,🇬🇧 [BosLife] 英国-02,🇬🇧 [BosLife] 英国-03
+♻️ 自动选择 = url-test,🇭🇰 [BosLife] 香港-01,🇭🇰 [BosLife] 香港-02,🇭🇰 [BosLife] 香港-03,🇭🇰 [BosLife] 香港-04,🇭🇰 [BosLife] 香港-05,🇭🇰 [BosLife] 香港-06,🇭🇰 [BosLife] 香港-07,🇭🇰 [BosLife] 香港-08,🇭🇰 [BosLife] 香港-09,🇭🇰 [BosLife] 香港-10,🇸🇬 [BosLife] 新加坡-01,🇸🇬 [BosLife] 新加坡-02,🇸🇬 [BosLife] 新加坡-03,🇹🇼 [BosLife] 台湾-01,🇹🇼 [BosLife] 台湾-02,🇹🇼 [BosLife] 台湾-03,🇺🇸 [BosLife] 美国-01,🇺🇸 [BosLife] 美国-02,🇺🇸 [BosLife] 美国-03,🇺🇸 [BosLife] 美国-04,🇺🇸 [BosLife] 美国-05,🇺🇸 [BosLife] 美国-06,🇯🇵 [BosLife] 日本-01,🇯🇵 [BosLife] 日本-02,🇯🇵 [BosLife] 日本-03,🇰🇷 [BosLife] 韩国-01,🇰🇷 [BosLife] 韩国-02,🇰🇷 [BosLife] 韩国-03,🇨🇦 [BosLife] 加拿大-01,🇨🇦 [BosLife] 加拿大-02,🇬🇧 [BosLife] 英国-01,🇬🇧 [BosLife] 英国-02,🇬🇧 [BosLife] 英国-03,url=http://www.gstatic.com/generate_204,interval=300,timeout=50
+🔯 故障转移 = fallback,🇭🇰 [BosLife] 香港-01,🇭🇰 [BosLife] 香港-02,🇭🇰 [BosLife] 香港-03,🇭🇰 [BosLife] 香港-04,🇭🇰 [BosLife] 香港-05,🇭🇰 [BosLife] 香港-06,🇭🇰 [BosLife] 香港-07,🇭🇰 [BosLife] 香港-08,🇭🇰 [BosLife] 香港-09,🇭🇰 [BosLife] 香港-10,🇸🇬 [BosLife] 新加坡-01,🇸🇬 [BosLife] 新加坡-02,🇸🇬 [BosLife] 新加坡-03,🇹🇼 [BosLife] 台湾-01,🇹🇼 [BosLife] 台湾-02,🇹🇼 [BosLife] 台湾-03,🇺🇸 [BosLife] 美国-01,🇺🇸 [BosLife] 美国-02,🇺🇸 [BosLife] 美国-03,🇺🇸 [BosLife] 美国-04,🇺🇸 [BosLife] 美国-05,🇺🇸 [BosLife] 美国-06,🇯🇵 [BosLife] 日本-01,🇯🇵 [BosLife] 日本-02,🇯🇵 [BosLife] 日本-03,🇰🇷 [BosLife] 韩国-01,🇰🇷 [BosLife] 韩国-02,🇰🇷 [BosLife] 韩国-03,🇨🇦 [BosLife] 加拿大-01,🇨🇦 [BosLife] 加拿大-02,🇬🇧 [BosLife] 英国-01,🇬🇧 [BosLife] 英国-02,🇬🇧 [BosLife] 英国-03,url=http://www.gstatic.com/generate_204,interval=300,timeout=50
+🔮 负载均衡 = load-balance,🇭🇰 [BosLife] 香港-01,🇭🇰 [BosLife] 香港-02,🇭🇰 [BosLife] 香港-03,🇭🇰 [BosLife] 香港-04,🇭🇰 [BosLife] 香港-05,🇭🇰 [BosLife] 香港-06,🇭🇰 [BosLife] 香港-07,🇭🇰 [BosLife] 香港-08,🇭🇰 [BosLife] 香港-09,🇭🇰 [BosLife] 香港-10
+📲 电报消息 = select,🚀 节点选择,♻️ 自动选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
+📹 油管视频 = select,🚀 节点选择,♻️ 自动选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
+🎥 奈飞视频 = select,🎥 奈飞节点,🚀 节点选择,♻️ 自动选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
+📺 巴哈姆特 = select,🇨🇳 台湾节点,🚀 节点选择,🚀 手动切换,DIRECT
+📺 哔哩哔哩 = select,🎯 全球直连,🇨🇳 台湾节点,🇭🇰 香港节点
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
+🌏 国内媒体 = select,DIRECT,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🚀 手动切换
+📢 谷歌FCM = select,DIRECT,🚀 节点选择,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🚀 手动切换
+Ⓜ️ 微软云盘 = select,DIRECT,🚀 节点选择,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🚀 手动切换
+Ⓜ️ 微软服务 = select,DIRECT,🚀 节点选择,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🚀 手动切换
+🍎 苹果服务 = select,DIRECT,🚀 节点选择,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🚀 手动切换
+🎮 游戏平台 = select,DIRECT,🚀 节点选择,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🚀 手动切换
+🎶 网易音乐 = select,DIRECT,🚀 节点选择,♻️ 自动选择
+🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
+🛑 广告拦截 = select,REJECT,DIRECT
+🍃 应用净化 = select,REJECT,DIRECT
+🐟 漏网之鱼 = select,🚀 节点选择,♻️ 自动选择,DIRECT,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换
+🇭🇰 香港节点 = url-test,🇭🇰 [BosLife] 香港-01,🇭🇰 [BosLife] 香港-02,🇭🇰 [BosLife] 香港-03,🇭🇰 [BosLife] 香港-04,🇭🇰 [BosLife] 香港-05,🇭🇰 [BosLife] 香港-06,🇭🇰 [BosLife] 香港-07,🇭🇰 [BosLife] 香港-08,🇭🇰 [BosLife] 香港-09,🇭🇰 [BosLife] 香港-10,url=http://www.gstatic.com/generate_204,interval=300,timeout=50
+🇯🇵 日本节点 = url-test,🇯🇵 [BosLife] 日本-01,🇯🇵 [BosLife] 日本-02,🇯🇵 [BosLife] 日本-03,url=http://www.gstatic.com/generate_204,interval=300,timeout=50
+🇺🇲 美国节点 = url-test,🇺🇸 [BosLife] 美国-01,🇺🇸 [BosLife] 美国-02,🇺🇸 [BosLife] 美国-03,🇺🇸 [BosLife] 美国-04,🇺🇸 [BosLife] 美国-05,🇺🇸 [BosLife] 美国-06,url=http://www.gstatic.com/generate_204,interval=300,timeout=150
+🇨🇳 台湾节点 = url-test,🇹🇼 [BosLife] 台湾-01,🇹🇼 [BosLife] 台湾-02,🇹🇼 [BosLife] 台湾-03,url=http://www.gstatic.com/generate_204,interval=300,timeout=50
+🇸🇬 狮城节点 = url-test,🇸🇬 [BosLife] 新加坡-01,🇸🇬 [BosLife] 新加坡-02,🇸🇬 [BosLife] 新加坡-03,url=http://www.gstatic.com/generate_204,interval=300,timeout=50
+🇰🇷 韩国节点 = url-test,🇰🇷 [BosLife] 韩国-01,🇰🇷 [BosLife] 韩国-02,🇰🇷 [BosLife] 韩国-03,url=http://www.gstatic.com/generate_204,interval=300,timeout=50
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 广告拦截,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🍃 应用净化,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list,📢 谷歌FCM,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list,Ⓜ️ 微软云盘,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list,Ⓜ️ 微软服务,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list,🍎 苹果服务,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,📲 电报消息,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list,🎶 网易音乐,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list,📹 油管视频,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list,🎥 奈飞视频,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list,📺 巴哈姆特,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list,📺 哔哩哔哩,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list,📺 哔哩哔哩,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list,🌏 国内媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🌍 国外媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list,🚀 节点选择,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list,🎯 全球直连,update-interval=86400
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
