@@ -1,0 +1,20 @@
+#!name=bilibili
+#!desc=bilibili 每日任务
+#!system=ios
+
+[MITM]
+hostname = %APPEND% *.bilibili.com
+
+[Script]
+# 仅限于获取 cookie
+bilibili = type=http-request,pattern=https://api.bilibili.com/x/web-interface/nav,debug=true,script-path=bilibili.js
+
+# 每日定时运行
+# 每天07,14,21点分别运行一次
+bilibili = type=cron,cronexp=0 8-24/7 * * *,wake-system=1,debug=true,script-path=bilibili.js
+
+
+[Panel]
+# 哔哩哔哩(每日任务)
+bilibili = script-name=bilibili, title="哔哩哔哩[每日任务]", content="请刷新", update-interval=3600
+
