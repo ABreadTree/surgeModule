@@ -2,6 +2,7 @@
 #!desc=Safari全能搜索(需要把Safari的搜索引擎设置为：Baidu)
 #!system=ios
 
+hostname = baidu.com
 [URL Rewrite]
 # Safari全能搜索
 # 以下为Safari全能搜索、需要把Safari的搜索引擎设置为：DuckDuckGo
@@ -39,9 +40,6 @@
 # bi (必应)
 ^https:\/\/baidu.com\/\?q=bi\+([^&]+).+ https://cn.bing.com/search?q=$1 302
 
-# bd (百度)
-#^https:\/\/baidu.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
-
 # ccn (App Store 临时换至中国区)
 ^https:\/\/baidu.com\/\?q=ccn&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc= 302
 
@@ -52,4 +50,7 @@
 ^https:\/\/baidu.com\/\?q=hhk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc= 302
 
 # ddg (DuckDuckGo)
-^https:\/\/baidu.com\/\?q=bd\+([^&]+).+ https://www.duckduckgo.com/s?wd=$1 302
+^https:\/\/baidu.com\/\?q=ddg\+([^&]+).+ url 302 https://duckduckgo.com/?ia=about&q=$1
+
+# 无指令: 谷歌
+^https:\/\/baidu.com\/\?q=([^&]+).+ url 302 https://www.google.com/search?q=$1
