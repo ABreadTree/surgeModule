@@ -83,7 +83,7 @@
     }
     if (!config.silence) {
         // if ssid in all_direct 
-        if (ssid && config.all_direct.includes(ssid)) {
+        if (config.all_direct.includes(ssid)) {
             notify(
                 `🤖 ${isSurge ? "Surge" : "Loon"} 运行模式`,
                 `当前网络：${ssid ? ssid : "蜂窝数据"}`,
