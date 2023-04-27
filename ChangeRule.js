@@ -27,8 +27,8 @@
     silence: false, // 是否静默运行，默认false
     cellular: "RULE", // 蜂窝数据下的模式，RULE代表规则模式，PROXY代表全局代理，DIRECT代表全局直连
     wifi: "RULE", // wifi下默认的模式
-    all_direct: ["StandByOolong", "StandByOolong_5G"], // 指定全局直连的wifi名字
-    all_proxy: [], // 指定全局代理的wifi名字
+    all_direct: [], // 指定全局直连的wifi名字
+    all_proxy: ["StandByOolong", "StandByOolong_5G"], // 指定全局代理的wifi名字
   };
   
   // load user prefs from box
